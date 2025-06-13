@@ -1,0 +1,44 @@
+{
+  "name": "idt-web",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "http://localhost:8000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "preview": "serve -s build"
+  },
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.30.1",
+    "react-scripts": "^5.0.1",
+    "react-window": "^1.8.11",
+    "xlsx": "^0.18.5"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^4.1.8"
+  }
+}
